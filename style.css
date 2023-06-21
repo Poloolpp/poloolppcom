@@ -76,6 +76,7 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    transition: color .3s ease-in-out;
 }
 span{
     background: white;
@@ -93,4 +94,5 @@ button:hover span{
 }
 button:hover{
     border: none;
+    color: rgba(0,0,0,1)
 }
